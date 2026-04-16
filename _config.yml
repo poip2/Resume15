@@ -1,140 +1,122 @@
-# Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+# =============================================
+# modern-resume-theme _config.yml
+# 目标岗位：培训项目管理岗（天马微电子）
+# =============================================
 
-# Content configuration version
+repository: sproogen/modern-resume-theme
+favicon: images/favicon.ico
 version: 2
 
-# Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+# ---------- 基本信息 ----------
+name: 杨睿
+title: 培训项目管理 | 人才发展专员
+email: 1368108912@qq.com
+phone: "13379614816"
 
-# Dark Mode (true/false/never)
 darkmode: false
 
-# Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+# ---------- 个人优势 ----------
+about_content: |
+  本科学历，**3年+企业培训从业经验**，具备新人训、领导力培训、
+  技术/专业能力提升等全类型人才培养项目的从规划到落地的完整经验。
+  
+  熟练进行**培训需求分析、课程开发与课件制作**；参与过**经验萃取与
+  学习地图搭建**实践；具备内训师选拔与培养协作经验。
+  
+  **能熟练运用 AI 工具**进行培训场景挖掘、课件内容生成与效果优化，
+  可快速独立产出高质量培训物料。
 
-# Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
-
+# ---------- 正文内容 ----------
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+
+  # ======== 工作经历 ========
+  - title: 工作经历
+    layout: list
+    content:
+
+      - layout: left
+        title: 浙江锂威能源科技有限公司
+        sub_title: 培训发展部 · 培训专员
+        caption: 2025.11 — 至今
+        description: |
+          - **AI 工具赋能培训**：运用 AI 工具独立制作 1 门通用型培训课程，
+            探索 AI 在企业培训场景中的落地路径与效果优化方法；
+          - **培训项目执行**：组织协调各类培训活动，负责培训前期筹备、
+            中期执行及训后跟进；
+          - **在线平台管理**：负责在线学习平台课程上传与更新，保障平台
+            稳定运转；
+          - **培训数据管理**：整理归档各项培训资料，完成数据统计与汇报。
+
+      - layout: left
+        title: 浙江吉利控股集团有限公司
+        sub_title: 人才经营部 · 培训专员
+        caption: 2021.10 — 2022.11
+        description: |
+          **① 人才培养项目执行与评估**
+          - 新人训项目：组织设计新员工入职培训，累计培训 **800 人**，
+            满意度 **97%**，覆盖组织、授课与考核全流程；
+          - 领导力培训（赤兔营）：参与方案撰写与活动落地，负责中期
+            带班管理与后期学员访谈，获评**"优秀青春导师"**；
+          - 蓝领培训：协助组织技能等级鉴定、师带徒资格鉴定及准驾证
+            考试，确保项目顺利落地；
+
+          **② 内训管理体系建设**
+          - 课程开发：根据需求设计、更新新员工入职培训及通识类课程，
+            负责内容编写、课件制作与案例收集；
+          - 内训师管理：协助内训师选拔、资格授予及评优激励工作；
+          - 资料库建设：建立并完善培训资料库（含课件、案例、视频），
+            定期维护在线学习平台；
+
+          **③ 培训项目活动策划**
+          - 协助策划落地驾轻就瘦减重比赛、吉利 36 周年集体婚礼等
+            大型培训文化活动，负责前期讲师邀约、场地协调、物料准备
+            及后期课程评估；
+
+          **④ 经验萃取 & 学习地图**
+          - 参与管培生培养项目全周期：前期创意提供 → 中期带班管理
+            → 后期学员访谈，积累了岗位知识结构化萃取与呈现的实践
+            经验；
+          - 参与培训需求分析，通过调研、访谈收集员工需求，制定针对
+            性培训计划。
+
+      - layout: left
+        title: 默谷秀种植有限公司
+        sub_title: 人力资源
+        caption: 2022.12 — 2025.10
+        description: |
+          - 临时工招聘培训管理：单日最快完成 40 名采茶工招募；设计
+            绩效薪酬激励方案，推动人均日采摘量提升至 4 斤；通过现场
+            演示+质量检验开展采摘培训，确保交付合格；
+          - 基地现场管理：协助管理 300 亩基地，定期完成土壤检测与
+            病虫害巡查，制定差异化养护方案。
+
+  # ======== 核心技能 ========
+  - title: 核心技能
+    layout: text
+    content: |
+      | 技能方向 | 具体内容 |
+      |---|---|
+      | 培训项目管理 | 新人训 / 领导力 / 技术技能培训全类型项目执行与评估 |
+      | 课程开发 | 需求分析、课程设计、课件制作、效果评估 |
+      | AI 工具应用 | AI 培训场景挖掘、课件生成、内容优化与落地实施 |
+      | 经验萃取 | 岗位知识结构化萃取，学习地图搭建实践 |
+      | 内训师管理 | 协助选拔、培养、资格授予与评优激励 |
+      | 办公工具 | PPT / Excel / 在线学习平台管理 |
+
+  # ======== 教育背景 ========
+  - title: 教育背景
+    layout: list
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+        title: 西北民族大学
+        sub_title: 应用心理学 · 本科
+        caption: 2017 — 2021
+        description: |
+          - 心理委员：获优秀班干部奖，负责班级心理健康知识宣传；
+          - 学生会新闻部：参与学院活动拍摄记录、新闻稿制作与微信
+            公众号运营；
+          - 国家级大创项目：独立承担实验采购与报账，论文
+            《味觉感受影响自我损耗的实证研究》已发表。
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
-
-# Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-plugins:
- - jekyll-seo-tag
-
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+# ---------- 页脚 ----------
+footer_show_references: false
